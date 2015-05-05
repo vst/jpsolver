@@ -8,7 +8,7 @@
   <groupId>com.vsthost.rnd</groupId>
   <artifactId>jpsolver</artifactId>
   <packaging>jar</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
 
   <name>Convenience DSL for problem solving</name>
   <description>Convenience DSL for problem solving</description>

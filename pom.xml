@@ -3,72 +3,72 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-  <modelVersion>4.0.0</modelVersion>
+    <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.vsthost.rnd</groupId>
-  <artifactId>jpsolver</artifactId>
-  <packaging>jar</packaging>
-  <version>0.0.2-SNAPSHOT</version>
+    <groupId>com.vsthost.rnd</groupId>
+    <artifactId>jpsolver</artifactId>
+    <version>0.0.2-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
-  <name>Convenience DSL for problem solving</name>
-  <description>Convenience DSL for problem solving</description>
-  <url>https://github.com/vst/jpsolver</url>
+    <name>Convenience DSL for problem solving</name>
+    <description>Convenience DSL for problem solving</description>
+    <url>https://github.com/vst/jpsolver</url>
 
-  <licenses>
-    <license>
-      <name>The Apache License, Version 2.0</name>
-      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-    </license>
-  </licenses>
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
 
-  <developers>
-    <developer>
-      <name>Vehbi Sinan Tunalioglu</name>
-      <email>vst@vsthost.com</email>
-      <organization>The Negation</organization>
-      <organizationUrl>http://www.thenegation.com</organizationUrl>
-    </developer>
-  </developers>
+    <developers>
+        <developer>
+            <name>Vehbi Sinan Tunalioglu</name>
+            <email>vst@vsthost.com</email>
+            <organization>The Negation</organization>
+            <organizationUrl>http://www.thenegation.com</organizationUrl>
+        </developer>
+    </developers>
 
-  <scm>
-    <connection>scm:git:git@github.com:vst/jpsolver.git</connection>
-    <developerConnection>scm:git:git@github.com:vst/jpsolver.git</developerConnection>
-    <url>git@github.com:vst/jpsolver.git</url>
-  </scm>
+    <scm>
+        <connection>scm:git:git@github.com:vst/jpsolver.git</connection>
+        <developerConnection>scm:git:git@github.com:vst/jpsolver.git</developerConnection>
+        <url>git@github.com:vst/jpsolver.git</url>
+    </scm>
 
-  <properties>
-    <!-- Define the source encoding for the build -->
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <properties>
+        <!-- Define the source encoding for the build -->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <!-- Define target and source compiler versions -->
-    <maven.compiler.target>1.8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
+        <!-- Define target and source compiler versions -->
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
 
-    <!-- Define plugin versions -->
-    <version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
-    <version.nexus-staging-maven-plugin>1.6.3</version.nexus-staging-maven-plugin>
-    <version.maven-javadoc-plugin>2.10.3</version.maven-javadoc-plugin>
-    <version.maven-source-plugin>2.4</version.maven-source-plugin>
+        <!-- Define plugin versions -->
+        <version.maven-gpg-plugin>1.6</version.maven-gpg-plugin>
+        <version.nexus-staging-maven-plugin>1.6.3</version.nexus-staging-maven-plugin>
+        <version.maven-javadoc-plugin>2.10.3</version.maven-javadoc-plugin>
+        <version.maven-source-plugin>2.4</version.maven-source-plugin>
 
-    <!-- Define dependency versions -->
-    <version.junit>4.12</version.junit>
-    <version.gson>2.2.4</version.gson>
-  </properties>
+        <!-- Define dependency versions -->
+        <version.junit>4.12</version.junit>
+        <version.gson>2.2.4</version.gson>
+    </properties>
 
-  <dependencies>
-      <dependency>
-          <groupId>com.google.code.gson</groupId>
-          <artifactId>gson</artifactId>
-          <version>${version.gson}</version>
-      </dependency>
+    <dependencies>
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>${version.gson}</version>
+        </dependency>
 
-      <dependency>
-          <groupId>junit</groupId>
-          <artifactId>junit</artifactId>
-          <version>${version.junit}</version>
-          <scope>test</scope>
-      </dependency>
-  </dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${version.junit}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <distributionManagement>
         <snapshotRepository>
